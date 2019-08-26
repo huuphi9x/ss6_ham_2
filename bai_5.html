@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 5</title>
+</head>
+<body>
+<script>
+    function minNumber(number) {
+        let arrayNumber = [];
+        for (let i=0;i<3;i++) {
+            arrayNumber.push(prompt(number));
+        }
+        arrayNumber.sort(function (a,b) {
+            return a - b
+        })
+        alert(arrayNumber[0]);
+    }
+    minNumber();
+</script>
+</body>
+</html>

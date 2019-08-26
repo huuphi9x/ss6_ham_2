@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 4</title>
+</head>
+<body>
+<script>
+    function checkInput(text) {
+        let text1 = Number(text);
+        if (text1 == text) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    let inputText = prompt("Input Number")
+    alert(checkInput(inputText));
+    if (checkInput(inputText)) {
+        alert(inputText + ' is Number');
+    } else {
+        alert(inputText + ' is Not Number');
+    }
+</script>
+</body>
+</html>

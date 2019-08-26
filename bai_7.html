@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 7</title>
+</head>
+<body>
+<script>
+    function swapNumber(number) {
+        let arrayNumber1 = [];
+        for (let i = 0; i <= 1; i++) {
+            arrayNumber1.push(parseFloat(prompt(number)));
+        }
+        let arrayNumber2 = [];
+        for (let i = 1; i >= 0; i--) {
+            arrayNumber2.push(arrayNumber1[i]);
+        }
+        console.log(arrayNumber2);
+    }
+    swapNumber();
+</script>
+</body>
+</html>

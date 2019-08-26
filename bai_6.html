@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 6</title>
+</head>
+<body>
+<script>
+    function isPlusInteger(text) {
+        let text1 = Number(text);
+        if (text1 == text) {
+            if (text1 >= 0) {
+                alert(inputText + ' là số nguyên dương');
+            } else {
+                alert(inputText + ' không phải là số nguyên dương');
+            }
+        }
+    }
+    let inputText = prompt("Input the number");
+    isPlusInteger(inputText);
+</script>
+</body>
+</html>

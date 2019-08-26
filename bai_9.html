@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 9</title>
+</head>
+<body>
+<script>
+    function check(array, character) {
+        let count = 0;
+        for (let i = 0; i < array.length; i++) {
+            if (character == array[i]) {
+                count = count + 1;
+            }
+        }
+        if (count == 0) {
+            return -1;
+        } else {
+            return count;
+        }
+    }
+
+    let character = 3;
+    let arr1 = [3, 3, 3, 3, 3, 3, 3];
+
+    alert(check(arr1, character));
+</script>
+</body>
+</html>

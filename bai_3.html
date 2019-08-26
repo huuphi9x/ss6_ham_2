@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 3</title>
+</head>
+<body>
+<script>
+    function minusNum(num) {
+        if (num <= 1) {
+            return 1;
+        } else {
+            return num * minusNum(num - 1);
+        }
+    }
+    alert(minusNum(5));
+</script>
+</body>
+</html>
